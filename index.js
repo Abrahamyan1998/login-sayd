@@ -10,8 +10,8 @@ const creatImg=document.querySelector(".creatImg")
 
 
 let user = {
-    username: 'kminchelle',
-    password: '0lelplR'
+    username: 'Taron',
+    password: 'Abrahamyan'
 }
 
 let arr=[]
@@ -41,8 +41,8 @@ xhr.onload=(response) => {
 
  }
 xhr.send(JSON.stringify({
-  username: 'kminchelle',
-  password: '0lelplR'
+  username: 'Abrahamyan',
+  password: 'Taron'
 }))
 
 }
